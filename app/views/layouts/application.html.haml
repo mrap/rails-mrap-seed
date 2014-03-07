@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %title= @title || I18n.t(:app_name)
+    %meta{ :content => "width=device-width, initial-scale=1.0", :name => "viewport" }
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application'
+    = csrf_meta_tags
+  %body
+    .container
+      = render partial: 'shared/navbar'
+      = render partial: 'shared/flash_messages', flash: flash
+      = yield

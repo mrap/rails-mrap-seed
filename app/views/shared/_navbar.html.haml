@@ -1,0 +1,21 @@
+%nav.navbar.navbar-default{role: "navigation"}
+  / Everything within navbar-header stays visible at all times
+  / reguardless of screen size.
+  .navbar-header
+    / Toggle navigation button (mobile only)
+    %button.navbar-toggle{"data-target" => ".navbar-ex1-collapse", "data-toggle" => "collapse", :type => "button"}
+      .sr-only
+        Toggle navigation
+      .icon-bar
+      .icon-bar
+      .icon-bar
+
+    / Logo
+    = link_to t(:app_name), root_path, :class => 'navbar-brand'
+
+  / Everything below will be hidden on mobile only.
+  / Unhide by tapping the toggle navigation button.
+  .collapse.navbar-collapse.navbar-ex1-collapse
+    %ul.nav.navbar-nav
+      %li= link_to 'My Link', nil
+
