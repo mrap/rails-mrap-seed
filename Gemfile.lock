@@ -137,7 +137,6 @@ GEM
       rake
       rspec (>= 2.14)
     multi_json (1.9.0)
-    newrelic_rpm (3.7.3.199)
     nio4r (1.0.0)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
@@ -265,7 +264,6 @@ DEPENDENCIES
   mongoid!
   mongoid-rspec
   moped!
-  newrelic_rpm
   orderly
   poltergeist
   rails (= 4.1.0.rc1)
