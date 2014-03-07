@@ -10,16 +10,16 @@ This is the seed project I wish I had for my last hackathons.
 
 ### Main Players:
 
-  * Mongoid (Wrapper for MongoDB)
-  * HAML
-  * Bootstrap (Sass flavored)
-  * RSpec
-  * Capybara (Preconfigured to use Poltergeist for fast BDD)
+  * [ Mongoid ](https://github.com/mongoid/mongoid/) (Wrapper for MongoDB)
+  * [ HAML ](http://haml.info/)
+  * [ Bootstrap ](https://github.com/twbs/bootstrap-sass) (Sass flavored)
+  * [ RSpec ](https://github.com/rspec/rspec-rails)
+  * [ Capybara ](https://github.com/jnicklas/capybara) (Preconfigured to use Poltergeist for fast BDD)
 
 ### Fast Testing!
 
-  * Zeus (Saves too much time, run specs immediately)
-  * Guard (Automatically runs the correct spec after you save the file)
+  * [ Zeus ](https://github.com/burke/zeus) (Saves too much time, run specs immediately)
+  * [ Guard ](https://github.com/guard/guard) (Automatically runs the correct spec after you save the file)
 
 ### Fast Deployment!
 
@@ -59,7 +59,7 @@ For Mac users, I recommend installing MongoDB via [Homebrew](http://brew.sh/):
 
 -------------------------------------------------------
 
-Main Terminal: This is where you code/commit/etc. The usual stuff.
+**Main Terminal**: This is where you code/commit/etc. The usual stuff.
 
 -------------------------------------------------------
 
@@ -90,3 +90,7 @@ We use `zeus` to keep Rails "running" in its current state.
 If you don't use `zeus`, you'd have to wait ~3-5 seconds everytime you run specs.
 [Railscasts](http://railscasts.com/episodes/413-fast-tests) breaks down the details in [this screencast](http://railscasts.com/episodes/413-fast-tests). I highly recommend watching this!
 
+
+## Helpful Links for syntax and matchers
+
+[Mongoid-Rspec matchers](https://github.com/evansagge/mongoid-rspec)
